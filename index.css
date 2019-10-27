@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    background: #fff;
+    position: relative;
+    font: 12px arial;
+  }
+/* a{
+    text-decoration:none;
+} */
+img,input, button,textarea {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+/* font-size: 12px; */
+margin: 0;
+}
+
+textarea {
+resize: none;
+}
+
+img {
+border: 0;
+vertical-align: middle;
+}
+/* 公共样式代码 */
+
+/* 导航 */
+.nav{
+    width:100%;
+    height:24px;
+    position: fixed;
+    top:10px;
+    left:0;
+    width:100%;
+    height:24px; 
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: flex-end;
+}
+li{
+    height:24px;
+    font-size: 14px;
+    margin:25px 17px 0 0;
+}
+.nav-lis {
+    font-weight:800;
+}
+.nav-lis a{
+    color:rgb(15, 15, 15);
+    text-align: center;
+}
+.nav-lis a:hover{
+    color:blue;
+}
+.no_blod{
+    font-weight: 500;
+}
+.more{
+    width: 70px;
+    height:22px;
+    background:#38f;
+    font-weight: 500;
+    text-align: center;
+}
+.more a{
+    color:#fff;
+    text-decoration: none;
+}
+.search{
+    height:191px;
+    width: 100%;
+    position:absolute;  
+    left:0;
+    right:0; 
+    top:140px;
+    text-align: center;
+    margin:auto;
+}
+.search .logo {
+    display: inline-block;
+    width:144px;
+    height:100px;  
+}
+.searching{
+    width:100%;
+    height: 36px;
+    font-size:0;
+}
+.searching .dec{
+    display: inline-block;
+    width:536px;
+    height:100%;
+    font: 12px arial;
+    border:1px solid #b8b8b8;
+}
+
+.searching .dec .sea{
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    display: inline-block;
+    width:480px;
+    height:27px;
+    margin-bottom:4px;
+}
+.searching .dec .sou{
+    display: inline-block;
+    z-index: 1;
+    /* position: absolute;
+    right: 11px;
+    top: 9px; */
+    /* right: 0; */
+    margin-top: 8px;
+    height: 18px;
+    width: 20px;
+    background:url("./img/camera_new_5606e8f.png");
+}
+.searching .submit{
+    display: inline-block;
+    width:100px;
+    height:36px;
+    background:#38f;
+    font-size: 16px;
+    color:#fff;
+    /* padding:10px 0 10px 10px; */
+    line-height:36px;
+    vertical-align:top;
+}
+.qrcode{
+    width:100%;
+    height:200px;
+    position: absolute;
+    top:410px;
+    left:0;
+    text-align: center;
+}
+.qrcode .qrimg{
+    font-size: 16px;
+    height:26px;
+    margin-top:10px;
+}
+.qrcode .sub{
+    color:#555;
+}
+.footer{
+    position: absolute;
+    left:0;
+    bottom:10px;
+    right:0;
+    height:90px;
+    width:100%;
+}
+.footer p{
+    margin:auto;
+    text-align: center;
+    margin-top:10px;
+}
+.footer p a{
+    color:#555;
+    margin:0 10px;
+}
+.footer .s1{
+    display: inline-block;
+    width:100px;
+    height:30px;
+    background:#222;
+}
+.footer .s2{
+    display: inline-block;
+    width:100px;
+    height:30px;
+    background:#58bc58;
+}
